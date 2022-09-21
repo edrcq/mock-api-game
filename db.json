@@ -1,0 +1,42 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "Test",
+            "money": 1000,
+            "factories": []
+        }
+    ],
+    "factories": [
+        {
+            "user": 1,
+            "ressource": "Bois",
+            "level": 1
+        }
+    ],
+    "ressources": [
+        {
+            "id": 1,
+            "name": "Bois",
+            "production_level": 2
+        }
+    ],
+    "offers": [
+        {
+            "id": 1,
+            "status": "OPEN",
+            "ressource": "Bois",
+            "price": 100,
+            "quantity": 10,
+            "type": "WTB"
+        },
+        {
+            "id": 1,
+            "status": "OPEN",
+            "ressource": "Bois",
+            "price": 100,
+            "quantity": 10,
+            "type": "WTS"
+        }
+    ]
+}
